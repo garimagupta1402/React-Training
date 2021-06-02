@@ -1,0 +1,235 @@
+.container {
+  width: 70%;
+  background-color: #e6ebed;
+  margin: 3% 3% 3% 13%;
+  border-radius: 10px;
+  height: 550px;
+  padding: 2%;
+  padding-bottom: 4%;
+}
+.section {
+  background-color: #feffff;
+  width: 83%;
+  margin: 5% 5% 5% 5%;
+  height: 450px;
+  border-radius: 35px;
+  padding: 4% 4% 1% 4%;
+  box-shadow: 0px 17px 20px 0px #bfc2c4;
+}
+.sectionblue {
+  border-radius: 10px;
+  background-color: #5046b8;
+  color: #fdfefe;
+  height: 410px;
+  padding: 1% 2% 1% 2%;
+}
+.corp {
+  display: block;
+  font-size: 10px;
+  text-align: right;
+  margin-top: 40px;
+}
+.contact {
+  display: block;
+  font-size: 10px;
+  color: #2f23ac;
+  text-align: right;
+  text-decoration: none;
+}
+#saveYour {
+  color: #fdfefe;
+  font-weight: lighter;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+}
+#moneyNow {
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 0px;
+}
+#textPre {
+  font-size: 13px;
+  color: #fdfefe;
+  width: 200px;
+  margin-left: 20px;
+  font-weight: 300;
+  margin-top: 0px;
+}
+#h2text {
+  font-weight: 300;
+  margin-bottom: 0px;
+  margin-top: 25px;
+}
+#text {
+  font-weight: 300;
+  margin-top: 0px;
+}
+#spanText {
+  font-weight: bold;
+}
+.sectiongray {
+  border-radius: 10px;
+  background-color: #f2f5fb;
+  margin-top: 40px;
+  color: #81858f;
+  padding: 10%;
+  height: 280px;
+  padding-bottom: 0px;
+}
+.iconImg {
+  margin-left: 48px;
+}
+#lite {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  display: contents;
+}
+#free {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  float: right;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#plan {
+  font-size: 10px;
+  color: black;
+  font-weight: 500;
+  margin-top: 20px;
+}
+ul {
+  list-style: none;
+}
+
+ul li:before {
+  content: "✓";
+}
+#list {
+    padding-left: 0px;
+    line-height: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 10px;
+    font-weight: 500;
+}
+#view2 {
+  font-size: 10px;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+#view1 {
+  font-size: 10px;
+  color: black;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 55px;
+}
+#with {
+  float: right;
+  font-size: 10px;
+  font-weight: 500;
+  text-align: right;
+  width: 90%;
+}
+#mon {
+  font-size: 10px;
+  color: white;
+  font-weight: 500;
+  float: right;
+  text-align: right;
+  width: 89%;
+}
+#btn {
+  background-color: #2f24ab;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  height: 40px;
+  justify-content: center;
+  margin-left: 10px;
+  margin-top: 5px;
+  padding-bottom: 0px;
+  font-size: 12px;
+}
+#btn2 {
+  background-color: #feffff;
+  border-radius: 10px;
+  color: #81858f;
+  border: none;
+  height: 40px;
+  justify-content: center;
+  margin-left: 10px;
+  margin-top: 5px;
+  padding-bottom: 0px;
+  font-size: 12px;
+}
+
+.sectionblue3 {
+  border-radius: 10px;
+  background-color: #2f23ac;
+  color: #fdfefe;
+  height: 290px;
+  margin-top: 50px;
+  border-radius: 10px;
+  padding: 10%;
+  height: 253px;
+}
+#pro {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  display: contents;
+}
+#paid {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  float: right;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#all {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 10px;
+    font-weight: 400;
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) / -2);
+  margin-left: calc(var(--bs-gutter-x) / -2);
+}
+.row > * {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) / 2);
+  padding-left: calc(var(--bs-gutter-x) / 2);
+  margin-top: var(--bs-gutter-y);
+}
+.col-3 {
+  flex: 0 0 auto;
+  width: 30%;
+}
+
+

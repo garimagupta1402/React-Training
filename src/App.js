@@ -1,12 +1,12 @@
 import React from 'react';
-import Home from './modules/home';
-
+import Assignment1 from './modules/Assignment1';
 
 class App extends React.Component{
   render(){
     return(
       <div className={"homeContainer"}>
-        <Home/>
+        <Assignment1/>
+      
       </div>
     );
   }

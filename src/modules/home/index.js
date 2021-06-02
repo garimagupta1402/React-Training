@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Assignment1 from '../Assignment1'
 import './index.css'
 class Home extends Component{
     render(){
@@ -6,6 +7,7 @@ class Home extends Component{
             <div>
                 <h1 className={"h1tag"}>{"Hello from Home"}</h1>
                 <h2 id={"h2tag"}>{"Hello from Home"}</h2>
+           
             </div>
         );
     }
