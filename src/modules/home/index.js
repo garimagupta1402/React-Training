@@ -1,16 +1,34 @@
-import React, {Component} from 'react';
-import Assignment1 from '../Assignment1'
-import './index.css'
-class Home extends Component{
-    render(){
-        return(
-            <div>
-                <h1 className={"h1tag"}>{"Hello from Home"}</h1>
-                <h2 id={"h2tag"}>{"Hello from Home"}</h2>
-           
-            </div>
-        );
-    }
+import React, { Component } from "react";
+import "./index.css";
+import ReusableBox from "../../components/ReusableBox";
+
+class Home extends Component {
+  renderBox(heading, btnText, headClass = "", btnColor = "") {
+    return (
+      <div className={"itemContainer"}>
+        <h3 className={headClass}>{heading}</h3>
+        <button style={{ background: btnColor }}>{btnText}</button>
+      </div>
+    );
+  }
+
+  render() {
+    return (
+      <div className={"homeContainer"}>
+        <h1>{"Home Page"}</h1>
+        {this.renderBox("First Container", "Click Me First", "headTextColor")}
+        {this.renderBox("Second Container", "Click Me Second", "")}
+        {this.renderBox("Third Container", "Click Me Third")}
+        <ReusableBox
+          heading={"Fourth Container"}
+          btntxt={"Click Me Fourth"}
+          headclass={"headTextColor"}
+          
+        />        
+
+      </div>
+    );
+  }
 }
+
 export default Home;
-//export Home; for exporting more than one thing

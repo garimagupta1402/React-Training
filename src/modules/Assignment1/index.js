@@ -10,7 +10,7 @@ class Assignment1 extends Component {
           <div className={"row"}>
             <div className={"col-3"}>
               <div className={"sectionblue"}>
-                <h2 id={"saveYour"}>Save yours</h2>
+                <h2 id={"saveYour"}>Save your</h2>
                 <h2 id={"moneyNow"}>money now.</h2>
                 <p id={"textPre"}>
                   Manage your company Bot in few easy steps, join our plan to
