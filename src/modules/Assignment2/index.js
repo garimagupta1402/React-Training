@@ -69,7 +69,7 @@ class Assignment2 extends Component {
         </div>
         <div className={"sectionOdd"}>
           {this.columnOdd(
-            developerIcon,
+            storybookIcon,
             "7) React Sight",
             " Chrome extension for a visual illustration of all components of your app in a live tree structure."
           )}

@@ -1,5 +1,4 @@
 import React from "react";
-// import appIcon from "../../assets/images/appIcon.svg";
 
 export default class Assgmnt2 extends React.Component {
   render() {
