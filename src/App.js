@@ -1,13 +1,12 @@
-import React from 'react';
-import Assignment1 from './modules/Assignment1';
-import Home from './modules/home';
+import React from "react";
+import Assignment2 from "./modules/Assignment2";
 
-class App extends React.Component{
-  render(){
-    return(
-      <div className={"homeContainer"}>
-        <Home/>
-      
+
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <Assignment2 />
       </div>
     );
   }

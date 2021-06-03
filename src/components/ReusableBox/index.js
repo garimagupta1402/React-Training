@@ -6,7 +6,7 @@ export default class ReusableBox extends React.Component{
         return(
             <div className={"itemContainer"}>
                 <h3>{this.props.heading}</h3>
-                <button  >{this.props.btntxt}</button>
+                <button>{this.props.buttonTitle}</button>
              </div>
         );
     }

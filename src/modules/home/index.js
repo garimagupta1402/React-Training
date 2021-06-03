@@ -6,7 +6,7 @@ class Home extends Component {
   renderBox(heading, btnText, headClass = "", btnColor = "") {
     return (
       <div className={"itemContainer"}>
-        <h3 className={headClass}>{heading}</h3>
+        <h3 className={"headClass"}>{heading}</h3>
         <button style={{ background: btnColor }}>{btnText}</button>
       </div>
     );
