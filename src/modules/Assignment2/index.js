@@ -84,7 +84,7 @@ class Assignment2 extends Component {
           />
         </div>
         <div className={"footer"}>
-          <p>All rights Reserved</p>  
+          <p>All Rights Reserved</p>  
         </div>
       </div>
     );
