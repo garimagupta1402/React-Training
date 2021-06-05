@@ -1,0 +1,267 @@
+/* @import url("../../fonts/AkkuratPro/AkkuratPro-Bold.otf"); */
+.container {
+  /* width: 1600px;
+    height: 5175px; */
+  padding-left: 20px;
+  background-color: #ffffff;
+  font-family: "AkkuratPro-Bold";
+  background-color: #f6fcff;
+}
+ui {
+  list-style: none;
+  display: inline-flex;
+}
+ui li {
+  margin-right: 40px;
+  color: #3a4e6f;
+  cursor: pointer;
+  margin: 0px 2rem 0px 2rem;
+  font-size: 12px;
+  transition: all 0.3s ease;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: bold;
+  line-height: 1.67;
+  letter-spacing: 0px;
+}
+/* .nav select{
+    margin-right: 30px;
+    margin-left: 30px;
+        font: inherit;
+    color: currentColor;
+    width: 100%;
+    border: 0;
+    height: 1.1876em;
+    margin: 0;    padding: 6px 0 7px;
+    min-width: 0;
+    background: none;
+    box-sizing: content-box;
+    animation-name: mui-auto-fill-cancel;
+    letter-spacing: inherit;
+    animation-duration: 10ms;
+    -webkit-tap-highlight-color: transparent;
+}  */
+.nav {
+  padding-top: 30px;
+}
+.nav img {
+  margin-left: 20px;
+  margin-right: 160px;
+
+}
+.nav button {
+  margin-left: 30px;
+}
+.login {
+  color: #009cde;
+  border: solid 2px rgba(0, 156, 222, 0.1);
+  height: 46px;
+  padding: 0px 35px 0px 35px;
+  font-size: 12px;
+  align-items: center;
+  font-weight: bold;
+  line-height: 1.67;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  background-color: transparent;
+}
+.signup {
+  color: white;
+  border: 0px;
+  height: 46px;
+  padding: 0px 35px 0px 35px;
+  font-size: 12px;
+  align-items: center;
+  font-weight: bold;
+  line-height: 1.67;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  background-color: #009cde;
+}
+.header {
+  display: flex;
+  background-color: rgba(33, 41, 64, 0);
+  margin-top: 60px;
+  margin-left: 30px;
+}
+.text {
+  width: 600px;
+  margin-right: 76px;
+}
+.card {
+  height: 390px;
+  box-shadow: 0 10px 20px 0 rgb(59 88 104 / 7%);
+  border-radius: 20px;
+  background-color: #ffffff;
+  width: 460px;
+}
+.card h3 {
+  font: normal 700 24px "Nunito Sans", sans-serif;
+  color: #000000;
+  line-height: 1.67;
+  margin-bottom: 15px !important;
+  text-align: center;
+}
+.card select {
+  float: right;
+  height: 40px;
+  border: 0;
+  background-color: none;
+  margin-top: 20px;
+  margin-right: 22px;
+}
+
+.card input {
+  float: left;
+  font: inherit;
+  color: currentColor;
+  margin-left: 20px;
+  width: 58%;
+  border: none;
+  height: 40px;
+  margin-top: 30px;
+  display: block;
+  padding: 6px 0 7px;
+  background: none;
+  box-sizing: content-box;
+}
+.card input:focus-visible {
+  outline: none;
+}
+.buy {
+  color: rgba(0, 156, 222, 0.68);
+  width: 187px;
+  border: 1px solid rgba(0, 156, 222, 0.68);
+  height: 46px;
+  z-index: 999;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.57;
+  border-radius: 10px 0px 0px 10px;
+  letter-spacing: 1px;
+  background-color: white;
+  margin-left: 50px;
+}
+.sell {
+  color: rgba(0, 156, 222, 0.68);
+  width: 187px;
+  border: 1px solid rgba(181, 184, 184, 0.68);
+  height: 46px;
+  z-index: 999;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.57;
+  border-radius: 0px 10px 10px 0px;
+  letter-spacing: 1px;
+  background-color: white;
+}
+.text h1 {
+  font: normal 700 48px "Rubik";
+  color: #000000;
+  width: 626px;
+  line-height: 1.33;
+  margin-bottom: 20px !important;
+  letter-spacing: normal;
+}
+.text h2 {
+  width: 518px;
+  height: 42px;
+  margin: 39px 154px 39px 0;
+  font-family: Rubik;
+  font-size: 35px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000808;
+}
+.text p {
+  width: 547px;
+  height: 107px;
+  margin: 39px 125px 39px 0;
+  font-family: NunitoSans;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.8;
+  letter-spacing: normal;
+  text-align: left;
+  color: #637696;
+}
+hr {
+  width: 100%;
+  height: 1px;
+  opacity: 0.25;
+  background-color: #3a4e6f;
+}
+.buydoge {
+  color: white;
+  width: 374px;
+  height: 64px;
+  z-index: 999;
+  font-size: 18px;
+  box-shadow: 0 2px 4px 0 rgb(103 194 6 / 30%);
+  font-family: Nunito Sans, sans-serif;
+  font-weight: bold;
+  border-style: hidden;
+  border-radius: 32px;
+  text-transform: uppercase;
+  background-color: #86c306;
+  margin-left: 50px;
+}
+.inputImg {
+  width: 40px;
+  border-radius: 50%;
+  height: 40px;
+  display: inline;
+  margin-top: 20px;
+  float: left;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+.howtobuydogecoin{
+  margin-top: 125px;
+  margin-bottom: 100px;
+  padding-left: 120px;
+  padding-right: 100px;
+}
+.internalDiv{
+  display: flex;
+  flex-direction: row;
+}
+.howtobuydoge{
+  color: white;
+  width: 374px;
+  height: 64px;
+  z-index: 999;
+  font-size: 18px;
+  box-shadow: 0 2px 4px 0 rgb(103 194 6 / 30%);
+  font-family: Nunito Sans, sans-serif;
+  font-weight: bold;
+  border-style: hidden;
+  border-radius: 32px;
+  text-transform: uppercase;
+  background-color: #009cde;
+  margin-left: 300px;
+}
+.howtoselldoge{
+  color: white;
+  width: 374px;
+  height: 64px;
+  z-index: 999;
+  font-size: 18px;
+  box-shadow: 0 2px 4px 0 rgb(103 194 6 / 30%);
+  font-family: Nunito Sans, sans-serif;
+  font-weight: bold;
+  border-style: hidden;
+  border-radius: 32px;
+  text-transform: uppercase;
+  background-color: #86c306;
+  margin-left: 300px;
+}
+.pictureandText{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}

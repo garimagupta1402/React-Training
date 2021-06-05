@@ -1,0 +1,97 @@
+.imageClass {
+  width: 620px;
+  height: 460px;
+}
+.line {
+  float: right;
+  width: 580px;
+}
+.headClass {
+  font-family: Rubik;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000808;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.subHeadingClass {
+  display: contents;
+  height: 24px;
+  margin: 40px 21px 0 4.4px;
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2.5;
+  text-align: left;
+  color: #000808;
+}
+.iconImgClass {
+  width: 20px;
+  height: 15px;
+}
+.desDivClass {
+  width: 360px;
+  font-size: 15px;
+  line-height: 1.8;
+  text-align: left;
+  color: #637696;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.btnClass{
+  width: 200px;
+  height: 65px;
+  margin: 0 0 0 3px;
+  padding: 22px 50px 21px 50px;
+  border-radius: 50px;
+  background-color: #009cde;
+}
+.iconimgClass{
+  width: 20px;
+  height: 15px;
+}
+.subHeadClass{
+  display: contents;
+  height: 24px;
+  margin: 40px 21px 0 4.4px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2.5;
+  text-align: left;
+  color: #000808;
+  margin-bottom: 0px;
+}
+.desdivClass{
+  width: 360px;
+  font-size: 15px;
+  line-height: 1.8;
+  text-align: left;
+  color: #637696;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.btnClass{
+  width: 125px;
+    height: 50px;
+    margin: 0 0 0 3px;
+    padding: 15px 25px 15px 25px;
+    border-radius: 50px;
+    border: none;
+    margin-left: 20px;
+    color:white;
+    font-weight: bold;
+}
+.buttonTextClass{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  
+  
+}
+.buttons{
+  display: flex;
+  
+}
