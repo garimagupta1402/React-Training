@@ -24,6 +24,10 @@ import casino from "./../../assets/images/casino.png";
 import nounTick from "./../../assets/images/nounTick.svg";
 import connection from "./../../assets/images/connection.svg";
 import people from "./../../assets/images/people.png";
+import review from "./../../assets/images/review.png";
+// import CreditCards from "./creditCards";
+import master from "../../assets/images/master.png";
+import visa from "../../assets/images/visa.png";
 
 function main(props) {
   return (
@@ -83,6 +87,42 @@ function main(props) {
           <button className={"buydoge"} type={"submit"}>
             BUY DOGE
           </button>
+        </div>
+      </div>
+      <div>
+        <div className={"cardSmall"}>
+          <img className={"imgcreditClass"} src={master} />
+          <div className={"cardTextDiv"}>
+            <div className={"cardNameDiv"}>
+              <h6 className={"cardholder"}>Card Holder</h6>
+              <h6 className={"cardholdername"}>George Dux</h6>
+            </div>
+            <div className={"dateDiv"}>
+              <h6 className={"expdate"}>Exp Date</h6>
+              <h6 className={"date"}>19/04/2026</h6>
+            </div>
+          </div>
+        </div>
+
+        <div className={"cardMed"}>
+          <img className={"imgcreditClass2"} src={visa} />
+          <div className={"cardTextDiv"}>
+            <div className={"cardNameDiv"}>
+              <h6 className={"cardholder2"}>Card Holder</h6>
+              <h6 className={"cardholdername2"}>John Connor</h6>
+            </div>
+            <div className={"dateDiv"}>
+              <h6 className={"expdate2"}>Exp Date</h6>
+              <h6 className={"date2"}>19/04/2026</h6>
+            </div>
+          </div>
+        </div>
+        <div className={"TextDiv"}>
+          <h2>Exchange your Dogecoin Instantly!</h2>
+          <p>
+            Buy & sell your Doge using your Visa or Mastercard debit or credit
+            card.
+          </p>
         </div>
       </div>
       <div className={"howtobuydogecoin"}>
@@ -226,15 +266,15 @@ function main(props) {
           </p>
         </div>
         <div className={"spendingDogeCoin"}>
-        <div >
-          <Spendingdogecoin pic={clothing} picText={"CLOTHING STORES"} />
-        </div>
-        <div >
-          <Spendingdogecoin pic={hosting} picText={"DOMAINS & HOSTING"} />
-        </div>
-        <div >
-          <Spendingdogecoin pic={casino} picText={"ONLINE CASINO"} />
-        </div>
+          <div>
+            <Spendingdogecoin pic={clothing} picText={"CLOTHING STORES"} />
+          </div>
+          <div>
+            <Spendingdogecoin pic={hosting} picText={"DOMAINS & HOSTING"} />
+          </div>
+          <div>
+            <Spendingdogecoin pic={casino} picText={"ONLINE CASINO"} />
+          </div>
         </div>
       </div>
       <div className={"pictureandText"}>
@@ -250,6 +290,47 @@ function main(props) {
           buttonText={"Buy & sell Dogecoin today"}
           btn={"SIGN UP"}
         />
+      </div>
+
+      <div className={"footer"}>
+        <div className={"footerImage"}>
+          <img src={logo} />
+          <img src={review} />
+          <ui className={"footerBottom"}>
+            <li>
+              <a>Xcoins.com </a>
+            </li>
+            <li>
+              <a> Tearms of Services</a>
+            </li>
+            <li>
+              <a>Privacy Policy</a>
+            </li>
+            <li>
+              <a>Legal Notice</a>
+            </li>
+            <li>
+              <a>Site Map</a>
+            </li>
+          </ui>
+        </div>
+        <div className={"footerBar"}>
+          <ui>
+            <li className={"footerHeading"}>COMPANY</li>
+            <li className={"footerHeading"}>SUPPORT</li>
+            <li className={"footerHeading"}>BLOG</li>
+          </ui>
+          <ui>
+            <li>About Us</li>
+            <li>Help Centre</li>
+            <li>TWITTER</li>
+          </ui>
+          <ui>
+            <li>Career</li>
+            <li>Contact</li>
+            <li>Facebook</li>
+          </ui>
+        </div>
       </div>
     </div>
   );
