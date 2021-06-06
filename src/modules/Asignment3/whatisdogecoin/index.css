@@ -1,0 +1,25 @@
+.IconClass {
+  width: 35px;
+  height: 15px;
+  display: initial;
+  margin-left: 10px;
+}
+.iconTextClass {
+  font-size: 15px;
+  display: contents;
+}
+.ImageClass {
+  margin-left: 23px;
+  width: 113px;
+  height: 80px;
+  margin-left: 16px;
+}
+.card_whatisdogecoin {
+  width: 150px;
+  height: 140px;
+  padding: 60px 40px 60px 40px;
+  box-shadow: 0 3px 21px 0 rgb(0 0 0 / 4%);
+  border: solid 1px rgba(99, 118, 150, 0.2);
+  background-color: #ffffff;
+  border-radius: 10px;
+}

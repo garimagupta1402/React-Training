@@ -5,14 +5,13 @@
 .countClass {
   padding: 10px;
   border-radius: 50%;
-  /* background-color: #009cde; */
   text-align: center;
   color: white;
   font-size: 20px;
   width: 25px;
   height: 25px;
   font-weight: bold;
-  margin-left: 46px;
+  margin-left: 50px;
   box-shadow: 0 2px 4px 0 rgba(0, 156, 222, 0.3);
 }
 .line2 {
@@ -46,7 +45,7 @@
   text-align: center;
   color: #637696;
   margin-top: 15px;
-  width: 330px;
+  width: 350px;
 }
 .imgClass{
     width: 60px;

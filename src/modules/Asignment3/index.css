@@ -44,9 +44,8 @@ ui li {
   padding-top: 30px;
 }
 .nav img {
-  margin-left: 20px;
+  margin-left: 35px;
   margin-right: 160px;
-
 }
 .nav button {
   margin-left: 30px;
@@ -221,17 +220,17 @@ hr {
   margin-bottom: 20px;
   margin-left: 50px;
 }
-.howtobuydogecoin{
+.howtobuydogecoin {
   margin-top: 125px;
   margin-bottom: 100px;
-  padding-left: 120px;
+  padding-left: 105px;
   padding-right: 100px;
 }
-.internalDiv{
+.internalDiv {
   display: flex;
   flex-direction: row;
 }
-.howtobuydoge{
+.howtobuydoge {
   color: white;
   width: 374px;
   height: 64px;
@@ -244,9 +243,9 @@ hr {
   border-radius: 32px;
   text-transform: uppercase;
   background-color: #009cde;
-  margin-left: 300px;
+  margin-left: 330px;
 }
-.howtoselldoge{
+.howtoselldoge {
   color: white;
   width: 374px;
   height: 64px;
@@ -259,9 +258,78 @@ hr {
   border-radius: 32px;
   text-transform: uppercase;
   background-color: #86c306;
-  margin-left: 300px;
+  margin-left: 330px;
 }
-.pictureandText{
+.pictureandText {
   margin-top: 100px;
   margin-bottom: 100px;
 }
+.whatIsDogecoin {
+  display: flex;
+  padding-left: 40px;
+  height: 250px;
+  width: 1170px;
+}
+.text_whatisdogecoin {
+  font-family: NunitoSans;
+  font-size: 20px;
+  line-height: 1.8;
+  text-align: center;
+  width: 600px;
+  height: 200px;
+  margin: 0px 30px 735px 31px;
+  background-color: #ffffff;
+  padding: 32px 17px 27px 18px;
+  box-shadow: 0 3px 21px 0 rgba(0, 0, 0, 0.04);
+  border: solid 1px rgba(99, 118, 150, 0.2);
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.text_whatisdogecoin p {
+  color: #637696;
+  margin-top: 0px;
+}
+.textSpendingDogecoin{
+  padding-top: 100px;
+  padding-left: 200px;
+}
+.text_whatisdogecoin h2 {
+  color: #000808;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.textSpendingDogecoin h2{
+  width: 656px;
+  height: 47px;
+  margin: 0 140px 20px 111px;
+  font-family: Rubik;
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000808;
+}
+.textSpendingDogecoin p{
+    width: 856px;
+    height: 63px;
+    margin: 20px 40.5px 67px 10.5px;
+    font-family: NunitoSans;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.8;
+    letter-spacing: normal;
+    text-align: center;
+    color: #637696;
+    margin-bottom: 50px;
+}
+.spendingDogeCoin{
+  display: flex;
+  padding-left: 160px;
+}
+
+

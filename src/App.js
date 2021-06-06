@@ -1,5 +1,5 @@
 import React from "react";
-import Assignment3 from "./modules/Asignment3"
+import Assignment3 from "./modules/Asignment3";
 
 class App extends React.Component {
   render() {

@@ -2,12 +2,12 @@ import React from "react";
 import "./index.css";
 
 function Dogecoin(props) {
-  var image, iconImg, heading, subHeading, des, buttonText, btn;
+  var image, iconImg, heading, subHeading,marg, des, buttonText, btn;
   return (
     <div>
       <img className={"imageClass"} src={props.image} />
       <div className={"line"}>
-        <h5 className={"headClass"}>{props.heading}</h5>
+        <h5 className={"headClass"}  style={{ margin: props.marg }}>{props.heading}</h5>
         <img className={"iconImgClass"} src={props.iconImg}/>
         <p className={"subHeadingClass"}>{props.subHeading}</p>
         <h5 className={"desDivClass"}>{props.des}</h5>

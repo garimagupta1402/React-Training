@@ -14,9 +14,16 @@ import noun_Wallet from "./../../assets/images/noun_Wallet.png";
 import man from "./../../assets/images/man.jpg";
 import Dogecoin from "./dogecoin";
 import lock from "./../../assets/images/lock.svg";
-import msg from './../../assets/images/msg.svg'
+import msg from "./../../assets/images/msg.svg";
 import lady from "./../../assets/images/lady.jpg";
-
+import WhatIsDogecoin from "./whatisdogecoin";
+import Spendingdogecoin from "./../Asignment3/spendingDogecoin";
+import clothing from "./../../assets/images/clothing.svg";
+import hosting from "./../../assets/images/hosting.png";
+import casino from "./../../assets/images/casino.png";
+import nounTick from "./../../assets/images/nounTick.svg";
+import connection from "./../../assets/images/connection.svg";
+import people from "./../../assets/images/people.png";
 
 function main(props) {
   return (
@@ -169,7 +176,7 @@ function main(props) {
       <div className={"pictureandText"}>
         <Dogecoin
           image={man}
-          heading={"Why But & Sell Dogecoin with Xcoin?"}
+          heading={"Why Buy & Sell Dogecoin with Xcoin?"}
           iconImg={lock}
           subHeading={"Encryption Technology"}
           des={
@@ -177,15 +184,64 @@ function main(props) {
           }
           iconimg={msg}
           subheading={"Customer Care"}
-          desdiv={"If you have any questions about Dogecoin or how to buy & sell it, you can contact our 24/7 customer support team"}
+          desdiv={
+            "If you have any questions about Dogecoin or how to buy & sell it, you can contact our 24/7 customer support team"
+          }
           buttonText={"Buy & sell Dogecoin today"}
           btn={"SIGN UP"}
-          />  
+        />
+      </div>
+      <div className={"whatIsDogecoin"}>
+        <div>
+          <WhatIsDogecoin
+            img={connection}
+            icon={nounTick}
+            iconText={"Decentralized"}
+          />
+        </div>
+        <div className={"text_whatisdogecoin"}>
+          <h2>What is Dogecoin?</h2>
+          <p>
+            Dogecoin (Doge) is a cryptocurrency created by software engineers in
+            2013. It’s been stated that it was created jokingly as a homage to
+            Bitcoin, but with recent price surges, it’s becoming a much more
+            serious investment for crypto-enthusiasts.{" "}
+          </p>
+        </div>
+        <div>
+          <WhatIsDogecoin
+            img={people}
+            icon={nounTick}
+            iconText={"Peer-to-peer"}
+          />
+        </div>
+      </div>
+      <div className={"wherecanispendmydogecoin"}>
+        <div className={"textSpendingDogecoin"}>
+          <h2>Where Can I Spend my Dogecoin?</h2>
+          <p>
+            There are a variety of fashion and clothing shops online accepting
+            Doge as payment. You can also use your Doge to pay for domains and
+            hosting, or online casinos.
+          </p>
+        </div>
+        <div className={"spendingDogeCoin"}>
+        <div >
+          <Spendingdogecoin pic={clothing} picText={"CLOTHING STORES"} />
+        </div>
+        <div >
+          <Spendingdogecoin pic={hosting} picText={"DOMAINS & HOSTING"} />
+        </div>
+        <div >
+          <Spendingdogecoin pic={casino} picText={"ONLINE CASINO"} />
+        </div>
+        </div>
       </div>
       <div className={"pictureandText"}>
         <Dogecoin
           image={lady}
           heading={"Is Doge coin for me?"}
+          marg={"100px 0px 0px 0px"}
           iconImg={""}
           des={
             "Dogecoin, although created for fun, has recently had a large price surge. Its growth in popularity also means that more companies are accepting it as a form of payment. "
