@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto&family=Rubik&display=swap");
+
 .imageClass {
   width: 620px;
   height: 460px;
@@ -35,6 +37,8 @@
 .desDivClass {
   width: 360px;
   font-size: 15px;
+  font-family: Rubik;
+
   line-height: 1.8;
   text-align: left;
   color: #637696;
@@ -63,6 +67,7 @@
   text-align: left;
   color: #000808;
   margin-bottom: 0px;
+  font-family: Rubik;
 }
 .desdivClass{
   width: 360px;
@@ -72,6 +77,7 @@
   color: #637696;
   margin-top: 0px;
   margin-bottom: 0px;
+  font-family: Rubik;
 }
 .btnClass{
   width: 125px;

@@ -7,6 +7,7 @@ function CreditCards() {
     <div>
       <div className={"cardSmall"}>
         <img className={"imgcreditClass"} src={master} />
+        
         <div className={"cardTextDiv"}>
           <div className={"cardNameDiv"}>
             <h6 className={"cardholder"}>Card Holder</h6>

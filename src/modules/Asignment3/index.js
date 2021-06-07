@@ -25,7 +25,6 @@ import nounTick from "./../../assets/images/nounTick.svg";
 import connection from "./../../assets/images/connection.svg";
 import people from "./../../assets/images/people.png";
 import review from "./../../assets/images/review.png";
-// import CreditCards from "./creditCards";
 import master from "../../assets/images/master.png";
 import visa from "../../assets/images/visa.png";
 
@@ -92,6 +91,12 @@ function main(props) {
       <div>
         <div className={"cardSmall"}>
           <img className={"imgcreditClass"} src={master} />
+          <div className={"dots"}>
+            <div className={"dotsClass"}>****</div>
+            <div className={"dotsClass"}>****</div>
+            <div className={"dotsClass"}>****</div>
+            <div className={"dotClass"}>4216</div>
+          </div>
           <div className={"cardTextDiv"}>
             <div className={"cardNameDiv"}>
               <h6 className={"cardholder"}>Card Holder</h6>
@@ -106,6 +111,12 @@ function main(props) {
 
         <div className={"cardMed"}>
           <img className={"imgcreditClass2"} src={visa} />
+          <div className={"dots"}>
+            <div className={"dotsClass"}>****</div>
+            <div className={"dotsClass"}>****</div>
+            <div className={"dotsClass"}>****</div>
+            <div className={"dotClass"}>4216</div>
+          </div>
           <div className={"cardTextDiv"}>
             <div className={"cardNameDiv"}>
               <h6 className={"cardholder2"}>Card Holder</h6>
@@ -267,13 +278,13 @@ function main(props) {
         </div>
         <div className={"spendingDogeCoin"}>
           <div>
-            <Spendingdogecoin pic={clothing} picText={"CLOTHING STORES"} />
+            <Spendingdogecoin pic={clothing} picClass={"picss"} picText={"CLOTHING STORES"} />
           </div>
           <div>
-            <Spendingdogecoin pic={hosting} picText={"DOMAINS & HOSTING"} />
+            <Spendingdogecoin pic={hosting} picClass={"pics"} picText={"DOMAINS & HOSTING"} />
           </div>
           <div>
-            <Spendingdogecoin pic={casino} picText={"ONLINE CASINO"} />
+            <Spendingdogecoin pic={casino} picClass={"pics"} picText={"ONLINE CASINO"} />
           </div>
         </div>
       </div>

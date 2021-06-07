@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto&family=Rubik&display=swap");
 .IconClass {
   width: 35px;
   height: 15px;
@@ -7,6 +8,8 @@
 .iconTextClass {
   font-size: 15px;
   display: contents;
+  font-family: NunitoSans;
+
 }
 .ImageClass {
   margin-left: 23px;
