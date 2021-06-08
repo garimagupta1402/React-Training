@@ -1,0 +1,195 @@
+.navClass {
+  display: none;
+}
+.divClass {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main{
+  height: 3670;
+  padding-left: 50px;
+}
+input {
+  width: 90%;
+}
+.subdivClass9 {
+  order: 1;
+}
+.subdivClass1 {
+  order: 2;
+}
+.subdivClass2 {
+  order: 8;
+}
+.subdivClass3 {
+  order: 5;
+}
+.subdivClass4 {
+  order: 9;
+}
+.subdivClass5 {
+  order: 6;
+}
+.subdivClass7 {
+  order: 7;
+}
+.subdivClass6 {
+  order: 3;
+}
+.subdivClass8 {
+  order: 4;
+}
+input {
+  padding-left: 25px;
+  border: none;
+  width: 90%;
+  height: 50px;
+  border-radius: 40px;
+  box-shadow: 0 7px 15px 0 rgba(23, 115, 166, 0.07);
+  background-color: #ffffff;
+  
+}
+.head {
+  margin-left: 35px;
+}
+h1 {
+  margin-top: 0;
+  padding-top: 30px;
+}
+.subdivClass1 {
+    width: 325px;
+    height: 353px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 20px 0px 0px 20px;
+    border-radius: 20px;
+    box-shadow: 0 7px 15px 0 rgba(138, 156, 165, 0.07);
+    background-color: #ffffff;
+    margin-left: 30px;
+  }
+  .subdivClass2 {
+    width: 325px;
+    height: 353px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 20px 0px 0px 20px;
+    border-radius: 20px;
+    box-shadow: 0 7px 15px 0 rgba(138, 156, 165, 0.07);
+    background-color: #ffffff;
+    margin-left: 30px;
+  }
+  .subdivClass3 {
+    width: 325px;
+    height: 353px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 20px 0px 0px 20px;
+    border-radius: 20px;
+    box-shadow: 0 7px 15px 0 rgba(138, 156, 165, 0.07);
+    background-color: #ffffff;
+    margin-left: 30px;
+  }
+  .subdivClass4 {
+    width: 325px;
+    height: 353px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 20px 0px 0px 20px;
+    border-radius: 20px;
+    box-shadow: 0 7px 15px 0 rgba(138, 156, 165, 0.07);
+    background-color: #ffffff;
+    margin-left: 30px;
+  }
+  .subdivClass5 {
+    width: 325px;
+    height: 353px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 20px 0px 0px 20px;
+    border-radius: 20px;
+    box-shadow: 0 7px 15px 0 rgba(138, 156, 165, 0.07);
+    background-color: #ffffff;
+    margin-left: 30px;
+  }
+  .subdivClass6 {
+    width: 325px;
+    height: 353px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 20px 0px 0px 20px;
+    border-radius: 20px;
+    box-shadow: 0 7px 15px 0 rgba(138, 156, 165, 0.07);
+    background-color: #ffffff;
+    margin-left: 30px;
+  }
+  .subdivClass7 {
+    width: 325px;
+    height: 353px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 20px 0px 0px 20px;
+    border-radius: 20px;
+    box-shadow: 0 7px 15px 0 rgba(138, 156, 165, 0.07);
+    background-color: #ffffff;
+    margin-left: 30px;
+  }
+  .subdivClass8 {
+    width: 325px;
+    height: 353px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 20px 0px 0px 20px;
+    border-radius: 20px;
+    box-shadow: 0 7px 15px 0 rgba(138, 156, 165, 0.07);
+    background-color: #ffffff;
+    margin-left: 30px;
+  }
+  .subdivClass9 {
+    width: 325px;
+    height: 353px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 20px 0px 0px 20px;
+    border-radius: 20px;
+    box-shadow: 0 7px 15px 0 rgba(138, 156, 165, 0.07);
+    background-color: #ffffff;
+    margin-left: 30px;
+  }
+  @media screen and (max-width:600px){
+    .icon {
+      width: 20px;
+      height: 20px;
+    }
+    .icon1 {
+      width: 30px;
+      height: 30px;
+    }
+    .logo {
+      height: 25px;
+    }
+    .navClass {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      padding-top: 30px;
+      padding-left: 20px;
+      padding-right: 20px;
+      grid-gap: 20px;
+      align-items: revert;
+    }
+    .head {
+      margin-left: 35px;
+    }
+    h1 {
+      margin-top: 0;
+      padding-top: 30px;
+    }
+  }

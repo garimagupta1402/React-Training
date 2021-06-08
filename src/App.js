@@ -1,13 +1,12 @@
 import React from "react";
-import Assignment3 from "./modules/Asignment3";
-// import CreditCards from "./modules/Asignment3/creditCards";
+// import Grid from "./modules/Assignment4/component_grid";
+import FlexComponent from "./modules/Assignment4/component_flex";
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        <Assignment3 />
-        {/* <CreditCards /> */}
+        <FlexComponent />
       </div>
     );
   }

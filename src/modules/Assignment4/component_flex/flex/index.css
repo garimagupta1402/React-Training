@@ -1,0 +1,38 @@
+
+.headingClass {
+    width: 150px;
+    height: 36px;
+    margin: 0 134px 21px 0;
+    font-family: CircularStd;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 2;
+    color: #000000;
+  }
+  .subTextClass {
+    width: 96px;
+    height: 22px;
+    margin: 28px 148px 0 0;
+    font-family: AkkuratPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    color: #86c306;
+  }
+  ui li {
+    list-style: none;
+    width: 230px;
+    height: 22px;
+    margin: 21px 43px 18px 0;
+    line-height: 1.57;
+  }
+  a {
+    text-decoration: none;
+    color: #009cde;
+    font-family: AkkuratPro;
+    font-size: 14px;
+  }
+  
