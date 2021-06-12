@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import "./signup.css";
 
 const SignupForm = () => {
+  
+  const [errors, setError] = useState({});
   const [value, setValue] = useState({
     fullname: "",
     email: "",
@@ -15,7 +17,6 @@ const SignupForm = () => {
       [event.target.name]: event.target.value,
     });
   };
-  const [errors, setError] = useState({});
   const handleformsubmit = (event) => {
     event.preventDefault();
     setError(validation(value));
@@ -28,13 +29,13 @@ const SignupForm = () => {
   };
   const validation = (value) => {
     let errors = {};
-  
+
     if (!value.fullname) {
       errors.fullname = "Name is required";
     }
     if (!value.email) {
       errors.email = "Email is required";
-    } 
+    }
     if (value.password) {
       errors.password = "Password is required.";
     }

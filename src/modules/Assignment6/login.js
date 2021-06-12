@@ -1,34 +1,39 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 
 function Login() {
-  const [login, setlogin] = useState(false)
-
+  const [login, setlogin] = useState(false);
+  const [value, setValue] = useState({
+    email: "",
+    password: "",
+  });
+  const [errors, setError] = useState({});
   const handleChange = (event) => {
-    setlogin({
+    setValue({
       ...value,
-      [event.target.name]: event.target.login,
+      [event.target.name]: event.target.value,
     });
   };
   const handleformsubmit = (event) => {
-    event.preventDefault();
-    setError(validation(login));
-    var obj = {
-      email: login.email,
-      password: login.password,
-    };
-    var retrievedObject = localStorage.getItem('Object');
-}
-  const validation = (login) => {
-    let errors = {};
-
-    if (login.email!= ) {
-      errors.email = "Email does not match!";
-    }
-    if (login.password!=) {
-      errors.password = "Password does not match!";
-    }
-    return errors;
+    // event.preventDefault();
+    // setError(validation(login));
+    // var obj = {
+    //   email: login.email,
+    //   password: login.password,
+    // };
+    var retrievedObject = localStorage.getItem("object");
+    // alert(retrievedObject.email);
   };
+  // const validation = (login) => {
+  //   let errors = {};
+
+  //   if (login.email !== localStorage.getItem(obj.email)) {
+  //     errors.email = "Email does not match!";
+  //   }
+  //   if (login.password !== localStorage.getItem(obj.password)) {
+  //     errors.password = "Password does not match!";
+  //   }
+  //   return errors;
+  // };
   return (
     <div>
       <form>
@@ -53,7 +58,7 @@ function Login() {
           />
           {errors.password && <p className="error">{errors.password}</p>}
         </div>
-        <button type="submit" onSubmit={handleformsubmit}>
+        <button type="submit" onSubmit={handleformsubmit()}>
           Login
         </button>
       </form>
