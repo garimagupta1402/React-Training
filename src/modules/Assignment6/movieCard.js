@@ -1,11 +1,12 @@
 import React from "react";
 import Rating from "./rating";
 import "./index.css";
+import andha from "../../assets/images/andha.jpeg";
 
 function Movie(props) {
   return (
     <div>
-      <img src={props.image} />
+      <img src={props.image} alt={"image"} />
       <h2>{props.name}</h2>
       <h3>{props.date}</h3>
       <h2>{props.rating}</h2>
