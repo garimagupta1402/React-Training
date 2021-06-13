@@ -33,7 +33,7 @@ const SignupForm = () => {
       password: value.password,
     };
     localStorage.setItem("object", JSON.stringify(obj));
-    checkValidate();
+    // checkValidate();
   };
   const validation = (value) => {
     let errors = {};
@@ -46,6 +46,8 @@ const SignupForm = () => {
     }
     if (!value.password) {
       errors.password = "Password is required.";
+    } else {
+      checkValidate();
     }
     return errors;
   };

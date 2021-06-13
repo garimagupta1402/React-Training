@@ -24,15 +24,14 @@ function Login() {
   };
   const handleformsubmit = (event) => {
     event.preventDefault();
-    checkValidate();
     // validation();
-    // setError(validation(login));
-    // var obj = {
-    //   email: login.email,
-    //   password: login.password,
+    setError(validation(value));
+    var object = {
+      email: value.email,
+      password: value.password,
   };
   // alert(retrievedObject.email);
-  // };
+  };
   const validation = (value) => {
     let errors = {};
     var retrievedObject = localStorage.getItem("object");
@@ -43,6 +42,10 @@ function Login() {
     }
     if (value.password !== obj.password) {
       errors.password = "Password does not match!";
+    }
+    else{
+      
+      checkValidate();
     }
     return errors;
   };
