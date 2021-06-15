@@ -1,7 +1,5 @@
 import React from "react";
-import Rating from "./rating";
 import "./index.css";
-import andha from "../../assets/images/andha.jpeg";
 
 function Movie(props) {
   return (

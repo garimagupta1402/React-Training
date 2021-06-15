@@ -1,13 +1,13 @@
 import React from "react";
-import Form from "./modules/Assignment6/form";
-// import MovieHomePage from "./modules/Assignment6/movieHomePage";
+import Main from "./modules/Assignment7";
+
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        <Form />
-        {/* <MovieHomePage /> */}
+        <Main />
+     
       </div>
     );
   }

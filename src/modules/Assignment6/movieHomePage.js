@@ -32,7 +32,6 @@ function MovieHomePage() {
                 date={value.date}
                 rating={value.rating}
               />
-              
             </>
           );
         })}
