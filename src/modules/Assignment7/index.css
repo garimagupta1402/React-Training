@@ -1,0 +1,37 @@
+.cars{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.cars h2{
+width: 200px;
+margin-left: 50px;
+}
+.mainDiv{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.mainDiv p{
+    width: 903px;
+    margin: 50PX;
+    MARGIN-LEFT: 200PX;
+    text-align: center;
+  
+}
+.detailDiv h2 h4{
+    MARGIN-LEFT: 200PX;
+}
+.detailText{
+    text-align: center;
+}
+.compDiv{
+    display: flex;
+}
+.search, .button{
+    margin: 50px;
+    margin-left: 525px;
+}
