@@ -18,8 +18,15 @@ function Main() {
     <>
       {isForm && (
         <div className={"mainDiv"}>
-         <p>1)Chevrolet chevelle malibu 2)Buick skylark 320 3)Buick skylark 320 4)Plymouth satellite 5)Amc rebel sst 6)Ford torino</p>
-         <p> 7)Ford galaxie 500 8)Chevrolet impala 9)Plymouth fury iii 10)Pontiac catalina 11)Amc ambassador dpl</p>
+          <p>
+            1)Chevrolet chevelle malibu 2)Buick skylark 320 3)Buick skylark 320
+            4)Plymouth satellite 5)Amc rebel sst 6)Ford torino
+          </p>
+          <p>
+            {" "}
+            7)Ford galaxie 500 8)Chevrolet impala 9)Plymouth fury iii 10)Pontiac
+            catalina 11)Amc ambassador dpl
+          </p>
           <input
             className={"search"}
             type="text"
@@ -43,7 +50,7 @@ function Main() {
                   localStorage.setItem("datas", datas);
                 }
               })
-              
+
               .map((value, name) => {
                 return (
                   <div key={name}>

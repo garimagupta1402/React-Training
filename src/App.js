@@ -1,13 +1,12 @@
 import React from "react";
-import Main from "./modules/Assignment7";
-
+import List from "./modules/Assignment8/List";
+import  './modules/Assignment8/User.css'
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        <Main />
-     
+        <List />
       </div>
     );
   }

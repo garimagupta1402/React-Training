@@ -1,0 +1,70 @@
+.nav-links{
+    margin: 20px;
+    color: cornsilk;
+}
+ .form{
+    margin-top: 50px;
+ }
+
+ul{
+    list-style-type: none;
+}
+
+.li-items{
+    border: 3px inset rgb(101, 207, 221);
+    border-radius: 25px;
+    font-size: larger;
+}
+.mainDiv{
+    margin-top: 50px;
+}
+
+.search_btn{
+    margin-top: 50px;
+}
+.reset_btn{
+    margin-top: 50px;
+} 
+
+.btn{
+    margin-left: 10px;
+}
+.none_btn{
+    display: none;
+}
+
+.input1
+{
+    width: 15%;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.input2
+{
+    width: 20%;
+    padding: 10px;
+   
+}
+
+.Search-input{
+    width: 20%;
+    position: absolute;
+    padding: 10px;
+    left: 50px;
+}
+
+
+.Edit
+{
+    color:blueviolet;
+    font-size: medium;
+}
+
+.notfound
+{
+    color: red;
+}
+
+

@@ -3,20 +3,24 @@ import data from "./data";
 import "./index.css";
 
 function Detail(props) {
-  var viewData;
-  viewData = JSON.parse(localStorage.getItem("datas"));
-  const [value, setValue]= useState({
-    cylin:viewData.cylinders,
-  })
-  const handleSubmit = (event) => {
-    const data= datas.event.target.value;
-    setValue({
-      ...value,
-     
-    })
+ 
+  const viewData = JSON.parse(localStorage.getItem("datas"));
+  const [value, setValue]= useState("")
+  const[searchWeight, setWeight]= useState(props.weight_in_lbs);
+
+  // const  objectWeight = viewData.find((current) =>{
+  //   return current.name ===searchWeight;
+  // })
+  // const weightIndex = viewData.findIndex((current) => {
+  //   return current.name ===searchWeight;
+  // })
+
+  // const handleSubmit = (event) => {
+  //   event.preventDefault();
+  // }
     var dat = JSON.stringify(value);
     localStorage.setItem("datas", dat);
-  }
+  
   return (
     <div className={"detailDiv"}>
        <div className={"detailText"}>
@@ -32,12 +36,13 @@ function Detail(props) {
       </div>
       <form>
         <div>
-          <input className={"search"} type="text" name="cyl"  onSubmit={handleSubmit} />
-          <button type="submit">Change Request</button>
+          <input className={"search"} type="text" name="cyl"  />
+          <button type="submit" >Change Request</button>
         </div>
       </form>
      
     </div>
   );
 }
+
 export default Detail;
