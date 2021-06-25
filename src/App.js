@@ -1,12 +1,10 @@
 import React from "react";
-import Counter from "./screens/counter";
+
+import Main from "./modules/Assignment10";
 
 class App extends React.Component {
   render() {
-    return (
-      <Counter/>
-      
-    );
+    return <Main />;
   }
 }
 export default App;

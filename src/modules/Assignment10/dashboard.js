@@ -1,39 +1,29 @@
-import React, { useState } from "react";
+import { Button } from "@material-ui/core";
+import React from "react";
+import Comp from "../Assignment10/comp";
 import "./index.css";
-import useEffect from "react";
-import axios  from "axios";
 
-function Dashboard() {
-  const [users, setUsers] = useState("");
-  const getUser = async () => {
-    try {
-      const res = await axios("https://jsonplaceholder.typicode.com/posts");
-      setUsers(res);
-      const json = await res.json();
-      setUsers(json?.data);
-    } catch (err) {
-      console.log(err);
-    }
-  };
-  console.log(users, "user");
-  useEffect(() => {
-    getUser();
-  }, []);
+function Dashboard(props) {
   return (
-    <>
-      {users?.length &&
-        users?.localeCompare((user, index) => {
-          return (
-            <div key={index} style={{ width: "33%" }}>
-              <p>
-                <strong>{users.first_name}</strong>
-              </p>
-              <p>{users.email}</p>
-              <img key={users.avatr} src={users.avatar} />
-            </div>
-          );
-        })}
-    </>
+    <div>
+      <Button variant="contained" color="primary" className={"btn"}>
+        {"Add User"}
+      </Button>
+      <div className={"mainCard"}>
+        {props.users.map((current) => (
+          <div key={current.id} className={"compDiv"}>
+            <Comp
+              index={current.id}
+              src={current.avatar}
+              fname={current.first_name}
+              lname={current.last_name}
+              email={current.email}
+              data={props.users}
+            />
+          </div>
+        ))}
+      </div>
+    </div>
   );
 }
 export default Dashboard;
