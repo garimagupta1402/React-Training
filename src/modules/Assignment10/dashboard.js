@@ -16,8 +16,6 @@ function Dashboard(props) {
               index={current.id}
               src={current.avatar}
               fname={current.first_name}
-              lname={current.last_name}
-              email={current.email}
               data={props.users}
             />
           </div>

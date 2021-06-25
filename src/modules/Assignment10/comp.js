@@ -7,9 +7,8 @@ function Comp(props) {
   return (
     <div className={"usersDiv"}>
         <img src={props.src} />
-        <h4>{props.fname}</h4>
-        <h4>{props.lname}</h4>
-        <h4>{props.email}</h4>
+        <h2>{props.fname}</h2>
+      
         <button className={"buttonClass"}><Link
         to={{
             pathname:`/des/${props.index}`,

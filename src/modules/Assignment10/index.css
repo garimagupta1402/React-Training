@@ -28,26 +28,31 @@ border-radius: 10px;
 .subDiv{
 display: flex;
 }
-/* .mainCard{
-    display: flex;
-} */
 .usersDiv{
-    display: inline-flex;
-    width: 300px;
-    height: 400px;
+   
+    width: 250px;
+    height: 450px;
 }
 .usersDiv img{
     width: 250px;
     height: 300px;
 }
+.usersDiv h2{
+    text-align: center;
+}
 .btn{
     position: absolute;
     right: 150px;
+
 }
 .buttonClass{
     width: 100px;
     height: 50px;
-    /* position: absolute;
-    right: 600px;
-    top: 50px; */
+    position: absolute;
+    left: 80px;
+  
+}
+.desDiv img{
+width: 400px;
+height: 500px;
 }
