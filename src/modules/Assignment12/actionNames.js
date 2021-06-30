@@ -1,0 +1,2 @@
+export const UPDATE_TO_LIGHT= "UPDATE_TO_LIGHT"
+export const UPDATE_TO_DARK= "UPDATE_TO_DARK"

@@ -19,6 +19,7 @@ export const colorsApi = () => {
   return async (dispatch) => {
     try {
       const response = await axios.get("https://reqres.in/api/unknown");
+
       dispatch(ColorSuccess(response.data.data));
     } catch (error) {
       dispatch(ColorFailure(error));
