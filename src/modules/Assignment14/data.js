@@ -1,7 +1,7 @@
 const data = [
   {
     id: "1",
-    image:"images/s1.jpeg",
+    image: "/images/s1.jpeg",
     name: "Shoes 1",
     description:
       "Your perfect companion for everyday use and walks in the forest. Either workout or treck or walk in your everyday walk",
@@ -9,7 +9,7 @@ const data = [
   },
   {
     id: "2",
-    image: "images/s2.jpeg",
+    image: "/images/s2.jpeg",
     name: "Shoes 2",
     description:
       "Your perfect companion for everyday use and walks in the forest. Either workout or treck or walk in your everyday walk",
@@ -17,7 +17,7 @@ const data = [
   },
   {
     id: "3",
-    image: "images/s3.jpeg",
+    image: "/images/s3.jpeg",
     name: "Shoes 3",
     description:
       "Your perfect companion for everyday use and walks in the forest. Either workout or treck or walk in your everyday walk",
@@ -25,7 +25,7 @@ const data = [
   },
   {
     id: "4",
-    image: "images/s4.jpeg",
+    image: "/images/s4.jpeg",
     name: "Shoes 4",
     description:
       "Your perfect companion for everyday use and walks in the forest. Either workout or treck or walk in your everyday walk",
@@ -33,7 +33,7 @@ const data = [
   },
   {
     id: "5",
-    image: "images/s5.jpeg",
+    image: "/images/s5.jpeg",
     name: "Shoes 5",
     description:
       "Your perfect companion for everyday use and walks in the forest. Either workout or treck or walk in your everyday walk",
@@ -41,7 +41,7 @@ const data = [
   },
   {
     id: "6",
-    image: "images/s6.jpeg",
+    image: "/images/s6.jpeg",
     name: "Shoes 6",
     description:
       "Your perfect companion for everyday use and walks in the forest. Either workout or treck or walk in your everyday walk",
@@ -49,7 +49,7 @@ const data = [
   },
   {
     id: "7",
-    image: "images/s7.jpeg",
+    image: "/images/s7.jpeg",
     name: "Shoes 7",
     description:
       "Your perfect companion for everyday use and walks in the forest. Either workout or treck or walk in your everyday walk",
@@ -57,7 +57,7 @@ const data = [
   },
   {
     id: "8",
-    image: "images/s8.jpeg",
+    image: "/images/s8.jpeg",
     name: "Shoes 8",
     description:
       "Your perfect companion for everyday use and walks in the forest. Either workout or treck or walk in your everyday walk",
@@ -65,7 +65,7 @@ const data = [
   },
   {
     id: "9",
-    image: "images/s9.jpeg",
+    image: "/images/s9.jpeg",
     name: "Shoes 9",
     description:
       "Your perfect companion for everyday use and walks in the forest. Either workout or treck or walk in your everyday walk",

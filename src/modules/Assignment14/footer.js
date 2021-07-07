@@ -13,6 +13,7 @@ const styles = makeStyles({
     display:"flex",
     justifyContent:"center",
     textAlign:"center",
+    backgroundColor:"#FF8E53"
   }
 });
 function Footer() {
@@ -21,7 +22,7 @@ function Footer() {
     <div>
       <AppBar
         position="relative"
-        color="default"
+      
         style={{ position: "fixed", bottom: "0" }}
       >
         <Toolbar className={classes.footer}>

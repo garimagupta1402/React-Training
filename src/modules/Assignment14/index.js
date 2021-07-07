@@ -6,19 +6,14 @@ import Login from "./login";
 import Home from "./home";
 import Main from "./dashboard";
 import Description from "./description";
+import Footer from "./footer";
 
-
-
-
-const useStyles= makeStyles({
-    mainContainer: {
-        background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
-        backgroundSize: "cover",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "100%",
-      },
+const useStyles = makeStyles({
+  mainContainer: {
+    background: "linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)",
+    backgroundSize: "cover",
+    height: "100%",
+  },
 });
 const Assignment14 = () => {
   const classes = useStyles();
@@ -32,6 +27,7 @@ const Assignment14 = () => {
           <PrivateRoute exact path="/product/:id" component={Description} />
         </Switch>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 };

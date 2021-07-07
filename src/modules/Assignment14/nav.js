@@ -5,10 +5,10 @@ import { useHistory } from "react-router-dom";
 
 const styles = makeStyles({
   addbar: {
-    backgroundColor: "white",
+    background: "linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)",
   },
   toolbar: {
-    backgroundColor: "white",
+    background: "linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)",
     display: "flex",
     justifyContent: "flex-end",
     color: "black",
@@ -19,7 +19,7 @@ const styles = makeStyles({
     margin: "15px",
     fontWeight: "bold",
     fontSize: "15px",
-    backgroundColor: "black",
+    backgroundColor: "#FE6B8B ",
     "&:hover": {
       backgroundColor: "#b3cccc",
     },

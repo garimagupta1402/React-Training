@@ -10,7 +10,7 @@ const styles = makeStyles({
     display: "flex",
     flexWrap: "wrap",
     justifyContent: "space-evenly",
-    marginTop: "10%",
+    marginTop: "5%",
   },
 });
 

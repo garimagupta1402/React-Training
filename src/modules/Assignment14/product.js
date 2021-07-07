@@ -14,8 +14,9 @@ import { Link } from "react-router-dom";
 
 const styles=makeStyles({card: {
   width: "400px",
-  margin: "25px ",
-  marginBottom:"70px",
+  marginTop: "50px",
+  marginBottom:"50px",
+  
 },
 media: {
   height: "250px",
@@ -29,7 +30,7 @@ button: {
   margin: "15px",
   fontWeight: "bold",
   fontSize: "15px",
-  backgroundColor: "black",
+  backgroundColor: "#FE6B8B",
   "&:hover": {
     backgroundColor: "rgba(148,187,233,1)",
   },
